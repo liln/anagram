@@ -8,7 +8,7 @@ class AnagrammTest < Minitest::Unit::TestCase
     b = Anagramm.new("iceman","noticeman")
     assert !b.solve
 
-    c = Anagramm.new("c","")
+    c = Anagramm.new("c", "")
     assert !c.solve
 
     d = Anagramm.new("iceman","iceman")
